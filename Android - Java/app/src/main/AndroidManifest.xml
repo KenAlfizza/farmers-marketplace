@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kenazalfizza.farmersmarketplace" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FarmersMarketplace.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31" >
+        <activity
+            android:name=".store.StoreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_store"
+            android:theme="@style/Theme.FarmersMarketplace.NoActionBar.NoActionBar" />
+        <activity
+            android:name=".community.CommunityJoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".community.CommunityRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.CartStoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.CartProductActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".orders.OrderDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DeliveryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".store.StoreProductUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".store.StoreProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".store.StoreProductRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".account.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".store.StoreRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".store.StoreUpdateActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FarmersMarketplace.NoActionBar" />
+        <activity
+            android:name=".store.StoreDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_store_details"
+            android:theme="@style/Theme.FarmersMarketplace.NoActionBar" />
+        <activity
+            android:name=".account.LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

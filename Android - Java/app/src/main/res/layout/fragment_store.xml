@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dashboard.StoreFragment"
+    android:background="@drawable/bg_app"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingVertical="20dp"
+            android:paddingHorizontal="5dp"
+            android:background="@color/green_400">
+
+            <ImageView
+                android:id="@+id/iv_store_image"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_store_empty_grey"
+                android:layout_marginHorizontal="12dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_store_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Store Name"
+                    android:textSize="24sp"/>
+                <TextView
+                    android:id="@+id/tv_store_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"/>
+                <TextView
+                    android:id="@+id/tv_store_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end">
+                <LinearLayout
+                    android:id="@+id/li_goto_store_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:background="@drawable/ic_nav_forward"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginVertical="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="My Products"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end">
+                    <LinearLayout
+                        android:id="@+id/li_goto_store_products"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="View All >"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li_store_product_preview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp"
+                android:visibility="visible">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_product_preview_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardMaxElevation="10dp"
+                    android:layout_marginHorizontal="5dp">
+                    <LinearLayout
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_product_preview_1_image"
+                            android:layout_width="156dp"
+                            android:layout_height="172dp"/>
+                        <LinearLayout
+                            android:layout_width="156dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="5dp"
+                            android:gravity="start">
+                            <TextView
+                                android:id="@+id/tv_product_preview_1_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="18dp"
+                                android:text="Product1"/>
+
+                            <TextView
+                                android:id="@+id/tv_product_preview_1_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:maxWidth="128dp"
+                                android:text="Price"
+                                android:textColor="@color/black"
+                                android:textSize="16dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_product_preview_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardMaxElevation="10dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:visibility="visible">
+                    <LinearLayout
+                        android:layout_width="156dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_product_preview_2_image"
+                            android:layout_width="156dp"
+                            android:layout_height="172dp"/>
+                        <LinearLayout
+                            android:layout_width="156dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_margin="5dp"
+                            android:gravity="start">
+                            <TextView
+                                android:id="@+id/tv_product_preview_2_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textSize="18dp"
+                                android:text="Product2"/>
+
+                            <TextView
+                                android:id="@+id/tv_product_preview_2_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:maxWidth="128dp"
+                                android:text="Price"
+                                android:textColor="@color/black"
+                                android:textSize="16dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li_store_product_preview_empty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"
+                android:visibility="visible"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginVertical="10dp"
+                    android:text="You dont have any product\nAdd new product?"
+                    android:textSize="18dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_register_product"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp">
+                    <ImageView
+                        android:id="@+id/iv_register_product"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_add"/>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+<!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingVertical="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery Service"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View All >"
+                    android:gravity="end"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:paddingHorizontal="20dp"
+                android:background="@color/purple_500">
+
+            </LinearLayout>
+        </LinearLayout>
+
+        -->
+
+    </LinearLayout>
+
+</FrameLayout>

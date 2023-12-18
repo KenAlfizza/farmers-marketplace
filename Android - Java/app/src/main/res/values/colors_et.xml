@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- EditText Box Color -->
+    <color name="et_box">#FFFFFF</color>
+    <color name="et_border">#C9C9C9</color>
+</resources>

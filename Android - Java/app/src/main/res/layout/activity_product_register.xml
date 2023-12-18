@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".store.StoreRegisterActivity"
+    android:orientation="vertical"
+    android:id="@+id/lay_product_register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CREATE PRODUCT"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Image"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <ImageButton
+                    android:id="@+id/ib_register_product_image"
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:background="@drawable/ic_category_vegetable"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product Details"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_register_product_name"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:hint="Name"
+                    android:background="@drawable/bg_edittext"
+                    android:padding="12dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_register_product_stock"
+                    android:inputType=""
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:hint="Stock"
+                    android:background="@drawable/bg_edittext"
+                    android:padding="12dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_register_product_price"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Price"
+                    android:background="@drawable/bg_edittext"
+                    android:padding="12dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Type"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="5dp"/>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RadioButton
+                        android:id="@+id/radio_product_type_vegetable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Vegetable"
+                        android:textColor="@color/grey"
+                        android:onClick="onRadioButtonClicked"/>
+                    <RadioButton
+                        android:id="@+id/radio_product_type_fruit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Fruit"
+                        android:textColor="@color/grey"
+                        android:onClick="onRadioButtonClicked"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_product_type_animal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Animal"
+                        android:textColor="@color/grey"
+                        android:onClick="onRadioButtonClicked"/>
+                    <RadioButton
+                        android:id="@+id/radio_product_type_seed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Seed"
+                        android:textColor="@color/grey"
+                        android:onClick="onRadioButtonClicked"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Description"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="5dp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_register_product_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:lines="3"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="Description..."
+                    android:gravity="top"
+                    android:padding="12dp"
+                    />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_register_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:text="Submit" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

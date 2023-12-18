@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/background_home_new_product.xml" value="0.2825" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/bg_card_category.xml" value="0.143" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/bg_category.xml" value="0.143" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/bg_category_vegetable.xml" value="0.2765" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/bg_orderlist.xml" value="0.2405" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/bg_orderlist_items.xml" value="0.2405" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/card_category_vegetable_background.xml" value="0.3105" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/cat0_background.xml" value="0.294" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/category_vegetable_background.xml" value="0.3105" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/et_background.xml" value="0.312" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/ic_add.xml" value="0.2955" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/ic_app_logo.xml" value="0.2965" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/ic_bin.xml" value="0.2955" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/ic_menu_home_black.xml" value="0.294" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/ic_menu_home_color.xml" value="0.294" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/ic_remove.xml" value="0.2955" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/ic_vegetable.xml" value="0.2765" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/list_background.xml" value="0.2495" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/list_cart_product_quantity.xml" value="0.2955" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/loader.xml" value="0.1" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/drawable/nav_background.xml" value="0.1975" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_cart.xml" value="0.18" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_cart2.xml" value="0.11678832116788321" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_cart_product.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_cart_store.xml" value="0.25" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_category.xml" value="0.16" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_community_join.xml" value="0.18442622950819673" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_community_join2.xml" value="0.18442622950819673" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_community_register.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_create_store.xml" value="0.35260416666666666" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_customer_login.xml" value="0.33" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_delivery.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_delivery_register.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_image_load.xml" value="0.15878378378378377" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_order_completion.xml" value="0.15" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_order_details.xml" value="0.21345628415300547" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_product.xml" value="0.25" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_product_register.xml" value="0.22" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_product_update.xml" value="0.14" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_register.xml" value="0.18" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_register_community.xml" value="0.18442622950819673" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_result.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_store.xml" value="0.12635135135135134" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_store_details.xml" value="0.22" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_store_edit.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_store_products.xml" value="0.1" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_store_products_table.xml" value="0.11283783783783784" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_store_register.xml" value="0.18" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/activity_store_update.xml" value="0.1" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/content_loading.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/content_store_details.xml" value="0.15878378378378377" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/dialog_password.xml" value="0.25" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_auth.xml" value="0.20218579234972678" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_auth_dialog.xml" value="0.20218579234972678" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_dialog.xml" value="0.15" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_empty_store.xml" value="0.17831813576494426" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_first.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_order_list.xml" value="0.2" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_profile.xml" value="0.18" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_register_store.xml" value="0.15878378378378377" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_register_store_details.xml" value="0.15878378378378377" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_register_user.xml" value="0.15878378378378377" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_remove_dialog.xml" value="0.19330601092896174" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_second.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_store.xml" value="0.2" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/fragment_store_empty.xml" value="0.33" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/layout_product_table.xml" value="0.22" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_cart_item.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_cart_product.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_cart_product_quantity.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_cart_store.xml" value="0.18" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_item.xml" value="0.23716216216216215" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_item_edit.xml" value="0.22" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_item_old.xml" value="0.12195945945945946" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_item_table.xml" value="0.12195945945945946" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_order_details.xml" value="0.25" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_order_item.xml" value="0.23716216216216215" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_product_item.xml" value="0.21345628415300547" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/list_product_layout.xml" value="0.15878378378378377" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/progress.xml" value="0.23783783783783785" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/layout/update_user_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/menu/bottom_navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.18958333333333333" />
+        <entry key="..\:/Programming/FarmersMarketplace/app/src/main/res/xml/product_list.xml" value="0.15878378378378377" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
