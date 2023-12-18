@@ -4,6 +4,7 @@ Farmers Marketplace
 
 Android e-commerce platform for the farming community.
 A high school project from July 2022 to February 2023.
+
 This repository is archived.
 
 ## Images
